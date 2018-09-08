@@ -17,13 +17,16 @@ from googleapiclient.errors import HttpError
 # tab of
 #   https://cloud.google.com/console
 # Please ensure that you have enabled the YouTube Data API for your project.
-DEVELOPER_KEY = 'AIzaSyBkwliFIrRV5uDZJksrXdRkdNlbnR0sBxQ'
+
+# Ok, i know that is a mistake to put my credentials here
+# but I'd rather believe in humanity
+PINDAMONHANGABA = 'AIzaSyBkwliFIrRV5uDZJksrXdRkdNlbnR0sBxQ'
 YOUTUBE_API_SERVICE_NAME = 'youtube'
 YOUTUBE_API_VERSION = 'v3'
 
 def youtube_search( q, max_results ):
   youtube = build(YOUTUBE_API_SERVICE_NAME, YOUTUBE_API_VERSION,
-    developerKey=DEVELOPER_KEY)
+    developerKey=PINDAMONHANGABA)
 
   # Call the search.list method to retrieve results matching the specified
   # query term.
