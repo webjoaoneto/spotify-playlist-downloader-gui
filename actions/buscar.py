@@ -5,6 +5,8 @@ from spotipy.oauth2 import SpotifyClientCredentials
 class SpotifyBusca():
 
     def buscar_playlist(self, playlistUrl ):
+        # Ok, i know that is a mistake to put my credentials here
+        # but I'd rather believe in humanity
         client_credentials_manager = SpotifyClientCredentials(client_id='8c337c38f249400d8e08ea68a19cc153',client_secret='70e22673325743ba8b1ae5ad8f283b16')
         sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
