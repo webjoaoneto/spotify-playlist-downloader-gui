@@ -20,6 +20,19 @@ This is an **SIMPLE** but usefull gui -- Written in Python with PyQT5 -- to expo
 4 - Or try to use our compiled exe version from here (Windows 10 only): 
 	--link--
 	
+## Install and usage (Windows only)
+* git clone https://github.com/joao-gsneto/spotify-playlist-downloader-gui.git spotidownloader
+* cd spotidownloader
+* pip install -r requirements.txt
+* python.exe index.py
+
+Go to our desired playlist, right click and "Copy Spotify URL"
+Paste Spotify URL on the input
+Click in Buscar
+Choose the right directory to put our downloaded mp3 files
+And then click in "Processar Fila".
+Wait all songs to download and enjoy =)
+
 ## Screenshots
 ![Print](https://image.ibb.co/kEbX79/print1.png)
 
