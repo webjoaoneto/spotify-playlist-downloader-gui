@@ -1,0 +1,6 @@
+__pycache__
+build/
+dist/
+tools/ffmpeg.exe
+tools/youtube-dl.exe
+index.spec
