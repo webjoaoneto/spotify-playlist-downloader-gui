@@ -23,7 +23,7 @@ This is an **SIMPLE** but usefull gui -- Written in Python with PyQT5 -- to expo
 ## Install and usage (Windows only)
 * git clone https://github.com/joao-gsneto/spotify-playlist-downloader-gui.git spotidownloader
 * cd spotidownloader
-* pip install -r requirements.txt
+* pip3 install -r requirements.txt
 * python.exe index.py
 
 Go to our desired playlist, right click and "Copy Spotify URL"
